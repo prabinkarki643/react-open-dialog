@@ -10,6 +10,12 @@
 npm install --save react-open-dialog
 ```
 
+## Peer Dependency
+>This package has a peer dependency with material-ui/core package so make sure to install this also.
+```bash
+npm install --save @material-ui/core
+```
+
 ## Usage
 
 ### Open Confirm Dialog
