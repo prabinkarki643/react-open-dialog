@@ -12,7 +12,7 @@ npm install --save react-open-dialog
 
 ## Usage
 
-# Open Confirm Dialog
+### Open Confirm Dialog
 
 ```jsx
 import React from 'react'
@@ -41,7 +41,7 @@ const App = () => {
 export default App
 ```
 
-# Options For Confirm Dialog
+### Options For Confirm Dialog
 
 ```
 const options={
@@ -60,7 +60,7 @@ const options={
 }
 ```
 
-# Open Custom Dialog
+### Open Custom Dialog
 
 ```jsx
 import React from 'react'
@@ -101,7 +101,7 @@ const App = () => {
 export default App
 ```
 
-# Options For Custom Dialog
+### Options For Custom Dialog
 
 ```
 const options={
