@@ -4,6 +4,16 @@
 
 [![NPM](https://img.shields.io/npm/v/react-open-dialog.svg)](https://www.npmjs.com/package/react-open-dialog) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+## Features
+
+  - Easy to use
+  - Open Dialog Programatically.
+  - Get nice and user friendly confirm dialog.
+  - Create your own custom Dialog with jsx
+
+## Demo
+
+
 ## Install
 
 ```bash
@@ -63,23 +73,20 @@ export default App
 ```
 
 ### Options For Confirm Dialog
-
-```
-const options={
-      title : string|node,
-      message : string|node,
-      onClickYes : function,
-      onClickNo : function,
-      yesText : string,
-      noText : string,
-      disableBackdropClick : boolean,
-      closeOnButtonClicked : boolean,
-      yesButtonProps : object,
-      noButtonProps : object,
-      dialogProps : object,
-      titleProps : object,
-}
-```
+| Name  | Type  | Description |
+| ------------ | ------------ | ------------ |
+|  title | string or node  | Title of dialog  |
+|  message | string or node | Message for user to confirm something.  |
+|  onClickYes  | function  | Trigger when use clicked on YES button  |
+| onClickNo   | function | Trigger when use clicked on NO button  |
+|  yesText  | string  | To change the text from YES to something else  |
+| noText  |  string | To change the text from NO to something else  |
+| disableBackdropClick    | boolean | Whether to close dialog when user clicks outside (**Default**-false)  |
+|  closeOnButtonClicked   | boolean  | Whether to close dialog when user clicks any of the button(Yes/NO) (**Default**-true)  |
+| yesButtonProps   |  object | Material UI button props  |
+| noButtonProps    |  object | Material UI button props  |
+| dialogProps    |  object | Material UI Dialog props  |
+| titleProps    |  object | Material UI DialogTitle props  |
 
 ### Open Custom Dialog
 
@@ -122,16 +129,16 @@ export default App
 ```
 
 ### Options For Custom Dialog
+| Name  | Type  | Description |
+| ------------ | ------------ | ------------ |
+|  title | string or node  | Title of dialog  |
+|  customRender   | callback function  | function that returns valid JSX  |
+| disableBackdropClick    | boolean | Whether to close dialog when user clicks outside (**Default**-false)  |
+| dialogProps    |  object | Material UI Dialog props  |
+| titleProps    |  object | Material UI DialogTitle props  |
 
-```
-const options={
-      title : string|node,
-      customRender : (arg)=>{},
-      disableBackdropClick : boolean,
-      dialogProps : object,
-      titleProps : object,
-}
-```
+### Screenshort
+
 
 ## License
 
