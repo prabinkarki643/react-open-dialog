@@ -40,7 +40,6 @@ ReactDOM.render(
 import React from 'react'
 
 import { DialogUtils } from 'react-open-dialog'
-import 'react-open-dialog/dist/index.css'
 
 const App = () => {
   return (
@@ -88,7 +87,6 @@ const options={
 import React from 'react'
 
 import { DialogUtils } from 'react-open-dialog'
-import 'react-open-dialog/dist/index.css'
 
 const App = () => {
   return (
