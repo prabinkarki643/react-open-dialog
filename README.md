@@ -132,12 +132,18 @@ export default App
 | Name  | Type  | Description |
 | ------------ | ------------ | ------------ |
 |  title | string or node  | Title of dialog  |
-|  customRender   | callback function  | function that returns valid JSX  |
+|  customRender   | callback function  | function that returns valid JSX (eg: `({closeDialog})=><div>Hello JSX</div>`)  |
 | disableBackdropClick    | boolean | Whether to close dialog when user clicks outside (**Default**-false)  |
 | dialogProps    |  object | Material UI Dialog props  |
 | titleProps    |  object | Material UI DialogTitle props  |
 
-### Screenshort
+
+### Screenshots
+#### Confirm Dialog
+[![Confirm Dialog](https://raw.githubusercontent.com/githubprabin143/react-open-dialog/master/example/screenshots/Confirm-Dialog.png "Confirm Dialog")](httphttps://raw.githubusercontent.com/githubprabin143/react-open-dialog/master/example/screenshots/Confirm-Dialog.png:// "Confirm Dialog")
+
+#### Custom Dialog
+[![Custom Dialog](https://raw.githubusercontent.com/githubprabin143/react-open-dialog/master/example/screenshots/Custom-Dialog.png "Custom Dialog")](httphttps://raw.githubusercontent.com/githubprabin143/react-open-dialog/master/example/screenshots/Custom-Dialog.png:// "Custom Dialog")
 
 
 ## License
