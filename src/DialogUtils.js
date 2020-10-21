@@ -10,10 +10,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 class DialogUtils {
-  constructor() {
-    this._container = document.getElementById("root-model");
-  }
-
+  #container=null;
   /**
    * @param {Object} options - options to fire dialog
    * @param {string=} options.title
@@ -30,6 +27,7 @@ class DialogUtils {
    * @param {boolean=} options.closeOnButtonClicked
    */
   openConfirmDialog = (options)=> {
+    this.#container = document.getElementById("root-model");
     const finalOptions = {
       title: "Dialog Title",
       message:
@@ -92,7 +90,7 @@ class DialogUtils {
           </Button>
         </DialogActions>
       </Dialog>,
-      this._container
+      this.#container
     );
   }
 
@@ -112,6 +110,7 @@ class DialogUtils {
    * @param {customRenderCallback} options.customRender
    */
   openCustomDialog = (options)=> {
+    this.#container = document.getElementById("root-model");
     const finalOptions = {
       title: "Dialog Title",
       customRender: () => <div>overide with customRender argument</div>,
@@ -141,12 +140,12 @@ class DialogUtils {
           })}
         </DialogContent>
       </Dialog>,
-      this._container
+      this.#container
     );
   }
 
   destroy = () => {
-    ReactDOM.unmountComponentAtNode(this._container);
+    ReactDOM.unmountComponentAtNode(this.#container);
   };
 }
 

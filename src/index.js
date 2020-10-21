@@ -4,7 +4,12 @@ import styles from './styles.module.css'
 
 export {default as DialogUtils} from './DialogUtils'
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
+export const RootDialog = ({ children })=> {
+  return (
+    <React.Fragment>
+      {children}
+      <div id='root-model'></div>
+    </React.Fragment>
+  )
 }
 

@@ -11,13 +11,29 @@ npm install --save react-open-dialog
 ```
 
 ## Peer Dependency
->This package has a peer dependency with material-ui/core package so make sure to install this also.
+>This package has a peer dependency with @material-ui/core package so make sure to install this also.
 ```bash
 npm install --save @material-ui/core
 ```
 
 ## Usage
+### Import css & wrap your app with RootDialog component either in index.js or app.js
+>If you dont wrap your application with RootDialog component you will get an error.
 
+```jsx
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './App'
+import 'react-open-dialog/dist/index.css'
+import {RootDialog} from 'react-open-dialog'
+
+ReactDOM.render(
+  <RootDialog>
+    <App />
+  </RootDialog>,
+  document.getElementById('root')
+)
+```
 ### Open Confirm Dialog
 
 ```jsx
