@@ -12,7 +12,7 @@
   - Create your own custom Dialog with jsx
 
 ## Demo
-
+[Demo Page](https://githubprabin143.github.io/react-open-dialog/ "Demo Page")
 
 ## Install
 
