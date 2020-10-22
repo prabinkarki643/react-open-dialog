@@ -46,7 +46,7 @@ ReactDOM.render(
 )
 ```
 ### Open Confirm Dialog as function
-**as function**
+**`As Function`**
 ```jsx
 import React from 'react'
 
@@ -73,6 +73,7 @@ const App = () => {
 export default App
 ```
 ### Open Confirm Dialog as **component**
+**`As Component`**
 ```jsx
  <ConfirmDialog
               anchorElement={
@@ -112,7 +113,7 @@ export default App
 
 
 ### Open Custom Dialog as **function**
-
+**`As Function`**
 ```jsx
 import React from 'react'
 
@@ -151,6 +152,7 @@ const App = () => {
 export default App
 ```
 ### Open Confirm Dialog as **component**
+**`As Component`**
 ```jsx
   <CustomDialog
               anchorElement={
