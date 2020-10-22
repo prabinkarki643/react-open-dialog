@@ -45,8 +45,8 @@ ReactDOM.render(
   document.getElementById('root')
 )
 ```
-### Open Confirm Dialog as **function**
-
+### Open Confirm Dialog as function
+**as function**
 ```jsx
 import React from 'react'
 
