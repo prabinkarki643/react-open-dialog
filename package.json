@@ -1,6 +1,6 @@
 {
   "name": "react-open-dialog",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Open Dialog as function call or react component.",
   "author": "githubprabin143",
   "license": "MIT",
@@ -13,7 +13,7 @@
   },
   "scripts": {
     "build": "microbundle-crl --compress --no-sourcemap --format modern,cjs",
-    "start": "microbundle-crl watch --no-compress --format modern,cjs",
+    "start": "microbundle-crl watch --compress --no-sourcemap --format modern,cjs",
     "prepare": "run-s build",
     "test": "run-s test:unit test:lint test:build",
     "test:build": "run-s build",
