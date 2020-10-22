@@ -1,13 +1,14 @@
 # react-open-dialog
 
-> Open Dialog Programatically with function call
+> Open Dialog as function call or react component.
 
 [![NPM](https://img.shields.io/npm/v/react-open-dialog.svg)](https://www.npmjs.com/package/react-open-dialog) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Features
 
   - Easy to use
-  - Open Dialog Programatically.
+  - Open Dialog as function call.
+  - Open Dialog as react component.
   - Get nice and user friendly confirm dialog.
   - Create your own custom Dialog with jsx
 
