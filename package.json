@@ -1,7 +1,7 @@
 {
   "name": "react-open-dialog",
   "version": "1.1.0",
-  "description": "Open Dialog Programatically with function call",
+  "description": "Open Dialog as function call or react component.",
   "author": "githubprabin143",
   "license": "MIT",
   "repository": "githubprabin143/react-open-dialog",

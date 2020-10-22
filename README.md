@@ -44,7 +44,7 @@ ReactDOM.render(
   document.getElementById('root')
 )
 ```
-### Open Confirm Dialog
+### Open Confirm Dialog as function
 
 ```jsx
 import React from 'react'
@@ -71,6 +71,24 @@ const App = () => {
 
 export default App
 ```
+### Open Confirm Dialog as component
+```jsx
+ <ConfirmDialog
+              anchorElement={
+                <div
+                  style={{
+                    border: '1px solid black',
+                    padding: 3,
+                    marginRight: 20
+                  }}
+                >
+                  Open Confirm Dialog
+                </div>
+              }
+              title='Dilog Title'
+              message='Elit amet esse minim elit pariatur voluptate dolor non et. Nulla ad do amet amet mollit duis voluptate magna. Nisi in non cillum amet magna consequat occaecat adipisicing. Ex consequat qui mollit eu exercitation et do adipisicing reprehenderit. Laborum sint eu sit sit ea anim Lorem id ut qui consectetur proident eiusmod laborum. Ipsum aliquip duis fugiat veniam nulla ut.'
+            />
+```
 
 ### Options For Confirm Dialog
 | Name  | Type  | Description |
@@ -87,8 +105,12 @@ export default App
 | noButtonProps    |  object | Material UI button props  |
 | dialogProps    |  object | Material UI Dialog props  |
 | titleProps    |  object | Material UI DialogTitle props  |
+| anchorElement | string or node | Anchor Element to hold dialog |
+| anchorElementContainerStyle | object | css as a object |
+| defaultOpen | boolean | make dialog open by default (**Default**-false) |
 
-### Open Custom Dialog
+
+### Open Custom Dialog as function
 
 ```jsx
 import React from 'react'
@@ -127,6 +149,32 @@ const App = () => {
 
 export default App
 ```
+### Open Confirm Dialog as component
+```jsx
+  <CustomDialog
+              anchorElement={
+                <div style={{ border: '1px solid black', padding: 3 }}>
+                  Open Custom Dialog
+                </div>
+              }
+              title='Dilog Title'
+            >
+              {({ closeDialog }) => {
+                return (
+                  <div>
+                    <p>My very first custom dialog </p>
+                    <button
+                      onClick={() => {
+                        closeDialog()
+                      }}
+                    >
+                      Close
+                    </button>
+                  </div>
+                )
+              }}
+            </CustomDialog>
+```
 
 ### Options For Custom Dialog
 | Name  | Type  | Description |
@@ -136,6 +184,9 @@ export default App
 | disableBackdropClick    | boolean | Whether to close dialog when user clicks outside (**Default**-false)  |
 | dialogProps    |  object | Material UI Dialog props  |
 | titleProps    |  object | Material UI DialogTitle props  |
+| anchorElement | string or node | Anchor Element to hold dialog |
+| anchorElementContainerStyle | object | css as a object |
+| defaultOpen | boolean | make dialog open by default (**Default**-false) |
 
 
 ### Screenshots

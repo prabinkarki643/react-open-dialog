@@ -1,8 +1,9 @@
 import React from 'react'
-import styles from './styles.module.css'
-
 
 export {default as DialogUtils} from './DialogUtils'
+export {ConfirmDialog,CustomDialog} from './DialogComponents'
+
+
 
 export const RootDialog = ({ children })=> {
   return (
@@ -12,4 +13,6 @@ export const RootDialog = ({ children })=> {
     </React.Fragment>
   )
 }
+
+
 
