@@ -32,7 +32,7 @@ npm install --save @material-ui/core
 
 ## Usage
 
-### Import css & wrap your app with RootDialog component either in index.js or app.js
+### Import and wrap your app with RootDialog component either in index.js or app.js
 
 > If you dont wrap your application with RootDialog component you will get an error.
 
@@ -40,7 +40,6 @@ npm install --save @material-ui/core
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
-import 'react-open-dialog/dist/index.css'
 import { RootDialog } from 'react-open-dialog'
 
 ReactDOM.render(
