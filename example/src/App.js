@@ -7,7 +7,7 @@ const App = () => {
     <div>
       <center>
         <h2>React Open Dialog</h2>
-        <a href="https://www.npmjs.com/package/react-open-dialog" target="_blank">Get it in NPM</a>
+        <a href="" target="_blank">Get it in NPM</a>
         <div style={{ marginBottom: '1.5%' }}>
           <div>
             <h3>Example As Function Call</h3>
