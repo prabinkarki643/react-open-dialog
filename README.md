@@ -119,9 +119,9 @@ export default App
 | noButtonProps               | object         | Material UI button props                                                              |
 | dialogProps                 | object         | Material UI Dialog props                                                              |
 | titleProps                  | object         | Material UI DialogTitle props                                                         |
-| anchorElement               | string or node | Anchor Element to hold dialog                                                         |
-| anchorElementContainerStyle | object         | css as a object                                                                       |
-| defaultOpen                 | boolean        | make dialog open by default (**Default**-false)                                       |
+| anchorElement               | string or node | Anchor Element to hold dialog (**Only available when using as a component**) |
+| anchorElementContainerStyle | object         | css as a object (**Only available when using as a component**) |
+| defaultOpen                 | boolean        | make dialog open by default (**Default**-false) (**Only available when using as a component**)|
 
 ### Open Custom Dialog as **function**
 
@@ -204,9 +204,9 @@ export default App
 | disableBackdropClick        | boolean           | Whether to close dialog when user clicks outside (**Default**-false)          |
 | dialogProps                 | object            | Material UI Dialog props                                                      |
 | titleProps                  | object            | Material UI DialogTitle props                                                 |
-| anchorElement               | string or node    | Anchor Element to hold dialog                                                 |
-| anchorElementContainerStyle | object            | css as a object                                                               |
-| defaultOpen                 | boolean           | make dialog open by default (**Default**-false)                               |
+| anchorElement               | string or node    | Anchor Element to hold dialog (**Only available when using as a component**)|
+| anchorElementContainerStyle | object            | css as a object (**Only available when using as a component**)|
+| defaultOpen                 | boolean           | make dialog open by default (**Default**-false)(**Only available when using as a component**)|
 
 ### Screenshots
 
