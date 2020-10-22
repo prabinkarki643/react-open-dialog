@@ -45,7 +45,7 @@ ReactDOM.render(
   document.getElementById('root')
 )
 ```
-### Open Confirm Dialog as function
+### Open Confirm Dialog as **function**
 
 ```jsx
 import React from 'react'
@@ -72,7 +72,7 @@ const App = () => {
 
 export default App
 ```
-### Open Confirm Dialog as component
+### Open Confirm Dialog as **component**
 ```jsx
  <ConfirmDialog
               anchorElement={
@@ -111,7 +111,7 @@ export default App
 | defaultOpen | boolean | make dialog open by default (**Default**-false) |
 
 
-### Open Custom Dialog as function
+### Open Custom Dialog as **function**
 
 ```jsx
 import React from 'react'
@@ -150,7 +150,7 @@ const App = () => {
 
 export default App
 ```
-### Open Confirm Dialog as component
+### Open Confirm Dialog as **component**
 ```jsx
   <CustomDialog
               anchorElement={
