@@ -8,9 +8,20 @@ import {
 } from "@material-ui/core";
 import React from "react";
 import ReactDOM from "react-dom";
+// import moduleName from 'reac'
 
 class DialogUtils {
   #container=null;
+  constructor(){
+    var rootModel = document.getElementById('root-model')
+    if(!rootModel){
+      const newEle = document.createElement('div')
+      newEle.setAttribute("id","root-model")
+      document.body.appendChild(newEle)
+      rootModel = newEle
+    }
+    this.#container=rootModel
+  }
   /**
    * @param {Object} options - options to fire dialog
    * @param {string=} options.title
@@ -27,7 +38,7 @@ class DialogUtils {
    * @param {boolean=} options.closeOnButtonClicked
    */
   openConfirmDialog = (options)=> {
-    this.#container = document.getElementById("root-model");
+    // this.#container = document.getElementById("root-model");
     const finalOptions = {
       title: "Dialog Title",
       message:
@@ -110,7 +121,7 @@ class DialogUtils {
    * @param {customRenderCallback} options.customRender
    */
   openCustomDialog = (options)=> {
-    this.#container = document.getElementById("root-model");
+    // this.#container = document.getElementById("root-model");
     const finalOptions = {
       title: "Dialog Title",
       customRender: () => <div>overide with customRender argument</div>,

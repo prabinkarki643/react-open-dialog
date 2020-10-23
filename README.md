@@ -32,24 +32,6 @@ npm install --save @material-ui/core
 
 ## Usage
 
-### Import and wrap your app with RootDialog component either in index.js or app.js
-
-> If you dont wrap your application with RootDialog component you will get an error.
-
-```jsx
-import React from 'react'
-import ReactDOM from 'react-dom'
-import App from './App'
-import { RootDialog } from 'react-open-dialog'
-
-ReactDOM.render(
-  <RootDialog>
-    <App />
-  </RootDialog>,
-  document.getElementById('root')
-)
-```
-
 ### Open Confirm Dialog as function
 
 **`As Function`**

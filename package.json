@@ -1,10 +1,22 @@
 {
   "name": "react-open-dialog",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Open Dialog as function call or react component.",
-  "author": "githubprabin143",
+  "author": "Prabin Karki",
+  "keywords": [
+    "react-open-dialog",
+    "react-dialog",
+    "dialog",
+    "open-dialog"
+  ],
   "license": "MIT",
-  "repository": "githubprabin143/react-open-dialog",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/githubprabin143/react-open-dialog"
+  },
+  "bugs": {
+    "url": "https://github.com/githubprabin143/react-open-dialog/issues"
+  },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",

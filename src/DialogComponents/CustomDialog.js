@@ -1,10 +1,8 @@
 import React, { forwardRef } from 'react'
 import Dialog from '@material-ui/core/Dialog'
-import DialogActions from '@material-ui/core/DialogActions'
 import DialogContent from '@material-ui/core/DialogContent'
 import DialogTitle from '@material-ui/core/DialogTitle'
 import Slide from '@material-ui/core/Slide'
-import { Button, DialogContentText } from '@material-ui/core'
 
 const Transition = forwardRef(function Transition(props, ref) {
   return <Slide direction='up' ref={ref} {...props} />
@@ -64,7 +62,6 @@ CustomDialog.defaultProps = {
   defaultOpen: false,
   dialogProps:null,
   titleProps:null,
-  defaultOpen:null,
   children:()=><div>Content</div>
 }
 
